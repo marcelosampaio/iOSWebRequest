@@ -21,6 +21,7 @@
 		9C7501DD18C4AEB800872788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7501BF18C4AEB800872788 /* UIKit.framework */; };
 		9C7501E518C4AEB900872788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C7501E318C4AEB800872788 /* InfoPlist.strings */; };
 		9C7501E718C4AEB900872788 /* iOSWebRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7501E618C4AEB900872788 /* iOSWebRequestTests.m */; };
+		9C8A3A6218CE391A00F8B031 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A3A6118CE391A00F8B031 /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9C7501E218C4AEB800872788 /* iOSWebRequestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebRequestTests-Info.plist"; sourceTree = "<group>"; };
 		9C7501E418C4AEB800872788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C7501E618C4AEB900872788 /* iOSWebRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebRequestTests.m; sourceTree = "<group>"; };
+		9C8A3A6018CE391A00F8B031 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		9C8A3A6118CE391A00F8B031 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				9C7501CA18C4AEB800872788 /* AppDelegate.h */,
 				9C7501CB18C4AEB800872788 /* AppDelegate.m */,
 				9C7501CD18C4AEB800872788 /* Main.storyboard */,
+				9C8A3A6018CE391A00F8B031 /* Movie.h */,
+				9C8A3A6118CE391A00F8B031 /* Movie.m */,
 				9C7501D018C4AEB800872788 /* ViewController.h */,
 				9C7501D118C4AEB800872788 /* ViewController.m */,
 				9C7501D318C4AEB800872788 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				9C7501D218C4AEB800872788 /* ViewController.m in Sources */,
 				9C7501CC18C4AEB800872788 /* AppDelegate.m in Sources */,
+				9C8A3A6218CE391A00F8B031 /* Movie.m in Sources */,
 				9C7501C818C4AEB800872788 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				9C7501EC18C4AEB900872788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C7501ED18C4AEB900872788 /* Build configuration list for PBXNativeTarget "iOSWebRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				9C7501EF18C4AEB900872788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
