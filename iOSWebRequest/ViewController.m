@@ -51,7 +51,7 @@
     int dummy=0;
     if (dummy==1)
     {
-        NSLog(@"dummy!!!! it will not happen! Somente para evitar WARNING no projeto. %@",conn);
+        NSLog(@"dummy!!!! it will not happen!!!!!!!! Somente para evitar WARNING no projeto. %@",conn);
     }
 
     
